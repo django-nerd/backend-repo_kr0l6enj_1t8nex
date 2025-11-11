@@ -1,7 +1,23 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [203] using StatReload
-INFO:     Started server process [205]
+INFO:     Started reloader process [248] using StatReload
+INFO:     Started server process [250]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:38698 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:40876 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:40914 - "OPTIONS /api/tools/calc HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40928 - "OPTIONS /api/tools/calc HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40882 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40914 - "GET /api/payment-methods HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40928 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40894 - "GET /api/top HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40904 - "GET /api/top HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40914 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40882 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40928 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40894 - "GET /api/payment-methods HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40928 - "OPTIONS /api/tools/calc HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40914 - "GET /api/categories HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40882 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40928 - "OPTIONS /api/tools/calc HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40894 - "GET /api/top HTTP/1.1" 200 OK
